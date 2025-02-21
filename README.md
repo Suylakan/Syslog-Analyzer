@@ -21,15 +21,15 @@ Bu proje, bir bağlı liste (linked list) kullanarak syslog dosyalarını okur, 
 
 ## Fonksiyonlar
    
-   **initList(LinkedList *list)**: Bağlı listeyi başlatır.
+   > **initList(LinkedList *list)**: Bağlı listeyi başlatır.
    
-   **append(LinkedList *list, const char *data)**: Bağlı listeye yeni bir düğüm ekler.
+   > **append(LinkedList *list, const char *data)**: Bağlı listeye yeni bir düğüm ekler.
    
-   **display(const LinkedList *list)**: Bağlı listedeki düğümleri görüntüler.
+   > **display(const LinkedList *list)**: Bağlı listedeki düğümleri görüntüler.
    
-   **freeList(LinkedList *list)**: Bağlı listedeki düğümleri temizler.
+   > **freeList(LinkedList *list)**: Bağlı listedeki düğümleri temizler.
    
-   **searchEvent(const LinkedList *list, const char *keyword)**: Bağlı listede anahtar kelimeyi arar.
+   > **searchEvent(const LinkedList *list, const char *keyword)**: Bağlı listede anahtar kelimeyi arar.
    
 ## Kurulum
 1. Kod dosyasını indirin veya klonlayın:
